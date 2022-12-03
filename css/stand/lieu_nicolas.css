@@ -1,0 +1,65 @@
+main table:first-child {
+    width: 100%;
+    text-align: center;
+}
+table {
+    border-spacing: 25px;
+}
+/* Petite épingle sur la carte */
+#pin_lcap {
+    position: relative;
+    right: 26.8rem;
+    bottom: 12.5rem;
+    transition: 0.25s;
+    
+}
+#pin_lcap:hover, #pin_bvs:hover, #pin_ams:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}
+#pin_bvs {
+    position: relative;
+    transition: 0.25s;
+    right: 26.57rem;
+    bottom: 13.2rem;
+}
+#pin_ams {
+    position: relative;
+    transition: 0.25s;
+    right: 25.4rem;
+    bottom: 19.1rem;
+}
+/* Changement du curseur pour le script jQuery */
+map, area {
+    cursor: pointer;
+}
+/* Préparation des cadres pour les photos */
+#second_part, #third_part {
+    background-size: cover;
+    width: 350px;
+    height: 250px;
+    border: 1px solid #666;
+}
+#second_part, #third_part, #first_part, #fourth_part {
+    text-align: justify;
+    line-height: 2;
+    text-indent: 6rem;
+}
+h1 {
+    font-size: 60px;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 0.25rem;
+}
+/* Présentation du lien pour Wikipédia */
+a#link_part {
+    text-align: center;
+    display: block;
+    text-decoration: none;
+    color: #0089ff;
+    width: fit-content;
+    margin: auto;
+}
+a#link_part:hover {
+    text-decoration: underline;
+}
